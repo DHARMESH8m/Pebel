@@ -15,29 +15,5 @@
 <section id="process"><div class="wrap reveal"><div class="section-head"><div><span class="kicker mono">One focused system</span><h2>From market signal to meeting.</h2></div><p>No giant playbook. Four things done carefully, then improved every week.</p></div><div class="process-grid"><article class="step" data-tilt><div class="step-no">01 / POSITION</div><h3>Find the sharpest reason to reply</h3><p>We turn your offer into a simple, relevant conversation starter.</p></article><article class="step" data-tilt><div class="step-no">02 / TARGET</div><h3>Reach buyers with a reason to care</h3><p>Fit, timing and market signals shape every list.</p></article><article class="step" data-tilt><div class="step-no">03 / WRITE</div><h3>Sound like one human to another</h3><p>Short emails, natural follow-ups and no generic sales language.</p></article><article class="step" data-tilt><div class="step-no">04 / IMPROVE</div><h3>Let real replies guide the system</h3><p>Campaigns flex as your priorities and market signals change.</p></article></div></div></section>
 <section><div class="wrap reveal"><div class="quote"><div class="quote-copy"><div class="quote-mark">“</div><blockquote>Well I'll be—you’re an email magician.</blockquote><cite>A Pebel client, after reviewing Sharad's prospect reply</cite></div><div class="quote-media"><img src="assets/client-testimonial.png" alt="Client calling Sharad an email magician in Slack"></div></div></div></section>
 <source src="assets/sharad-results-video.mp4" type="video/mp4"><section class="cta"><div class="wrap reveal"><div class="cta-box"><span class="kicker mono">See if there is a fit</span><h2>Bring us the offer.<br><span class="grad">We’ll find the conversation.</span></h2><p>Tell Sharad who you sell to and what you want the next 90 days of pipeline to look like.</p><a class="btn btn-main" href="https://www.linkedin.com/in/sharad-mishra-8917761b1" target="_blank" rel="noopener">Start a conversation ↗</a></div></div></section></main>
-<section class="video-section" id="video">
-  <div class="wrap reveal">
-    <div class="section-head">
-      <div>
-        <span class="kicker mono">Behind the results</span>
-        <h2>How Pebel turns cold outreach into real conversations.</h2>
-      </div>
-
-      <p>
-        Sharad walks through the work, the thinking behind the campaigns,
-        and what created the results.
-      </p>
-    </div>
-
-    <div class="video-shell">
-      <div class="video-frame">
-        <video controls preload="metadata" poster="assets/sharad.jpeg">
-          <source src="assets/captions%20(1).mp4" type="video/mp4">
-          Your browser does not support this video.
-        </video>
-      </div>
-    </div>
-  </div>
-</section>
 <footer><div class="wrap foot"><a class="brand" href="#top"><img src="assets/pebel-logo.png" alt="Pebel"><span>Pebel</span></a><div>© 2026 Pebel. Cold outbound, done like humans.</div><div class="foot-links"><a href="#results">Results</a><a href="#founder">Founder</a></div></div></footer><script>
 const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;addEventListener('mousemove',e=>{document.body.style.setProperty('--mx',e.clientX+'px');document.body.style.setProperty('--my',e.clientY+'px')});addEventListener('scroll',()=>{document.querySelector('#progress').style.width=(scrollY/(document.documentElement.scrollHeight-innerHeight)*100)+'%'});const reveal=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')}),{threshold:.12});document.querySelectorAll('.reveal').forEach(x=>reveal.observe(x));const counts=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting||e.target.dataset.done)return;e.target.dataset.done=1;const end=+e.target.dataset.count,s=e.target.dataset.suffix||'',start=performance.now(),dur=1300;function run(t){const p=Math.min((t-start)/dur,1),v=Math.floor(end*(1-Math.pow(1-p,3)));e.target.textContent=v.toLocaleString()+s;if(p<1)requestAnimationFrame(run)}requestAnimationFrame(run)}),{threshold:.7});document.querySelectorAll('[data-count]').forEach(x=>counts.observe(x));if(!reduced){document.querySelectorAll('[data-tilt]').forEach(el=>{el.addEventListener('mousemove',e=>{const r=el.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;el.style.transform=`perspective(800px) rotateX(${-y*4}deg) rotateY(${x*5}deg) translateY(-2px)`});el.addEventListener('mouseleave',()=>el.style.transform='')});const c=document.querySelector('#network'),x=c.getContext('2d');let pts=[];function size(){c.width=c.offsetWidth*devicePixelRatio;c.height=c.offsetHeight*devicePixelRatio;pts=Array.from({length:Math.min(70,innerWidth/18)},()=>({x:Math.random()*c.width,y:Math.random()*c.height,vx:(Math.random()-.5)*.22*devicePixelRatio,vy:(Math.random()-.5)*.22*devicePixelRatio}))}function draw(){x.clearRect(0,0,c.width,c.height);for(const p of pts){p.x+=p.vx;p.y+=p.vy;if(p.x<0||p.x>c.width)p.vx*=-1;if(p.y<0||p.y>c.height)p.vy*=-1;x.fillStyle='#479cff99';x.beginPath();x.arc(p.x,p.y,1.2*devicePixelRatio,0,7);x.fill()}for(let i=0;i<pts.length;i++)for(let j=i+1;j<pts.length;j++){const a=pts[i],b=pts[j],d=Math.hypot(a.x-b.x,a.y-b.y);if(d<135*devicePixelRatio){x.strokeStyle=`rgba(55,130,255,${.13*(1-d/(135*devicePixelRatio))})`;x.beginPath();x.moveTo(a.x,a.y);x.lineTo(b.x,b.y);x.stroke()}}requestAnimationFrame(draw)}size();addEventListener('resize',size);draw()}</script></body></html>
